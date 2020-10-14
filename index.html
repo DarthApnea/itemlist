@@ -50,15 +50,11 @@ title: Store
         placeholder="{{- site.data.language.str_items_search -}}">
 
     <table style="display: table" class="sortable">
-        <thead>
             <tr>
                 <th>Name</th>
                 <th>Cost</th>
                 <th>Category</th>
             </tr>
-        </thead>
-
-        <tbody>
             {%- for item in itemsForDisplay -%}
             <tr>
                 <td>{{- item.abr -}}</td>
@@ -66,7 +62,6 @@ title: Store
                 <td>{{- item.category -}}</td>
             </tr>
             {%- endfor -%}
-        </tbody>
     </table>
 </div>
 {%- endif -%}
