@@ -5,7 +5,6 @@ title: Store
 
 <link rel="stylesheet" href="{{- 'assets/css/core.css' | relative_url -}} " />
 <script src="{{- 'assets/js/tabs.js' | relative_url -}}"></script>
-<script src="https://www.kryogenix.org/code/browser/sorttable/sorttable.js"></script>
 
 
 {%- assign itemsForDisplay = site.data.StoreItems.items | where_exp: "item", "item.category != 'Animal'" | where_exp: "item", "item.price > 0" | sort: "abr" -%}
@@ -366,3 +365,5 @@ title: Store
         }
     }
 </script>
+
+<script src="https://www.kryogenix.org/code/browser/sorttable/sorttable.js"></script>
