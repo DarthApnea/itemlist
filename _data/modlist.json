@@ -394,5 +394,37 @@
   {
     "author": "Spdskatr",
     "name": "Damage Indicators"
+  },
+  {
+    "author": "Weilbyte",
+    "name": "Snap Out!",
+    "steamId": "1319782555",
+    "version": "1.6.0"
+  },
+  {
+    "author": "Sarg",
+    "name": "Smart Speed"
+  },
+  {
+    "author": "Dubwise",
+    "name": "Dubs Break Mod",
+    "steamId": "1722398508",
+    "version": "1.0.0"
+  },
+  {
+    "author": "Mehni",
+    "name": "Numbers (patched) 1.2",
+    "steamId": "2255104042",
+    "version": "1.0.4"
+  },
+  {
+    "author": "Andreas Pardeike",
+    "name": "Reverse Commands"
+  },
+  {
+    "author": "Andreas Pardeike",
+    "name": "Camera+",
+    "steamId": "867467808",
+    "version": "2.0.4.0"
   }
 ]
