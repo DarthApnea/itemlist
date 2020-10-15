@@ -586,5 +586,13 @@
     "usage": "!hello",
     "userLevel": "Moderator",
     "shortcut": false
+  },
+  {
+    "data": {
+      "isShortcut": false
+    },
+    "usage": "!joinraid",
+    "userLevel": "Anyone",
+    "shortcut": false
   }
 ]
