@@ -59,7 +59,7 @@
           "Minimal meditation focus type allowed."
         ]
       },
-      "description": "Timmy has forsaken physical comforts and enjoyments in favor of a simple, pure lifestyle. he will become unhappy if if he has a bedroom that's too impressive. he also dislikes fancy food and prefers to eat raw. he never judges others by their appearance.",
+      "description": "Timmy prefers to live in asceticism. he will be put in a poor mood if he has a bedroom that's too impressive. he also dislikes fancy food and prefers to eat raw - and raw food won't bother him a bit.",
       "stats": [
         "Artistic meditation focus type disabled.",
         "Minimal meditation focus type allowed."
@@ -281,7 +281,7 @@
         "customName": false,
         "stats": []
       },
-      "description": "Timmy is utterly fascinated with chemical sources of enjoyment. Consuming recreational drugs will create a good mood, while abstaining will lead to increasing frustration over time and possibly drug binges. he will ignore directives to not use recreational drugs, and will consume more than a normal person.",
+      "description": "Timmy has an intense fascination with chemical sources of enjoyment. he will consume much more of them and, if not already addicted to any drug and satisfied, will sometimes go on hard drug binges. he will ignore directives to not use pleasurable drugs.",
       "stats": [],
       "conflicts": [],
       "bypassLimit": false
@@ -300,7 +300,7 @@
         "customName": false,
         "stats": []
       },
-      "description": "Timmy has an unusual interest in chemical sources of enjoyment. Consuming recreational drugs will create a good mood, while abstaining will lead to increasing frustration over time and possible drug binges. he will ignore directives to not use recreational drugs, and will consume more than a normal person.",
+      "description": "Timmy has an unusual interest in chemical sources of enjoyment. he will consume more of them and, if not already addicted to any drug and satisfied, will sometimes go on social drug binges. he will ignore directives to not use pleasurable drugs.",
       "stats": [],
       "conflicts": [],
       "bypassLimit": false
@@ -619,7 +619,7 @@
         "customName": false,
         "stats": []
       },
-      "description": "Timmy is exceptionally kind. he has a special way of using kind words to brighten someone's day. he never insults others, and never judges people by their appearance.",
+      "description": "Timmy is a nice person. he has a tendency to brighten everyone else's day and never insults others.",
       "stats": [],
       "conflicts": [
         "abrasive",
@@ -1249,7 +1249,7 @@
           "Binging on drug mental state disabled."
         ]
       },
-      "description": "Timmy abhors the idea of gaining pleasure from chemicals. he strictly avoids alcohol and recreational drugs.",
+      "description": "Timmy abhors the idea of gaining pleasure from chemicals, and avoids alcohol and pleasurable drugs.",
       "stats": [
         "Binging on drug mental state disabled.",
         "Binging on drug mental state disabled."
@@ -1523,7 +1523,15 @@
       "name": "robot",
       "data": {
         "canBypassLimit": false,
-        "customName": false
+        "conflicts": [],
+        "customName": false,
+        "stats": [
+          "+0.10 move speed",
+          "+20% global work speed",
+          "-100% psychic sensitivity",
+          "-95% toxic sensitivity",
+          "-90% mental break threshold"
+        ]
       },
       "description": "NAME is an robot. As a robot HE is a bit faster and not really sensible for psychic phenomena.",
       "stats": [
@@ -1535,6 +1543,44 @@
       ],
       "conflicts": [],
       "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "defName": "Xenophobia",
+      "degree": 1,
+      "name": "xenophobe",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [],
+        "customName": false,
+        "stats": []
+      },
+      "description": "Timmy hates and distrusts xenos. They see them as little more than animals.",
+      "stats": [],
+      "conflicts": [],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "defName": "Xenophobia",
+      "degree": -1,
+      "name": "xenophile",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [],
+        "customName": false,
+        "stats": []
+      },
+      "description": "Timmy thinks aliens are exotic and interesting. They would love to get to know them more and wouldn't mind forming relationships with them.",
+      "stats": [],
+      "conflicts": [],
+      "bypassLimit": false
     }
   ],
   "races": [
@@ -1543,6 +1589,15 @@
       "defName": "Human",
       "enabled": true,
       "name": "human",
+      "data": {
+        "customName": false
+      }
+    },
+    {
+      "price": 5333,
+      "defName": "Alien_Moyo",
+      "enabled": true,
+      "name": "Moyo",
       "data": {
         "customName": false
       }
