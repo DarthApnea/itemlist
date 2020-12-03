@@ -2,12 +2,12 @@
 	"incitems" : [
 	{
 		"abr": "tornado",
-		"price": 800,
+		"price": 1800,
 		"karmatype": "Bad"
 	},
 	{
 		"abr": "tornados",
-		"price": 2600,
+		"price": 4600,
 		"karmatype": "Bad"
 	},
 	{
@@ -42,12 +42,12 @@
 	},
 	{
 		"abr": "snowgentle",
-		"price": 350,
+		"price": 850,
 		"karmatype": "Neutral"
 	},
 	{
 		"abr": "snowhard",
-		"price": 450,
+		"price": 1450,
 		"karmatype": "Bad"
 	},
 	{
@@ -57,7 +57,7 @@
 	},
 	{
 		"abr": "heatwave",
-		"price": 750,
+		"price": 7500,
 		"karmatype": "Bad"
 	},
 	{
@@ -67,32 +67,32 @@
 	},
 	{
 		"abr": "coldsnap",
-		"price": 800,
+		"price": 8000,
 		"karmatype": "Bad"
 	},
 	{
 		"abr": "solarflare",
-		"price": 500,
+		"price": 1500,
 		"karmatype": "Bad"
 	},
 	{
 		"abr": "shortcircuit",
-		"price": 500,
+		"price": 1500,
 		"karmatype": "Bad"
 	},
 	{
 		"abr": "toxicfallout",
-		"price": 6500,
+		"price": 9500,
 		"karmatype": "Doom"
 	},
 	{
 		"abr": "volcanicwinter",
-		"price": 3200,
+		"price": 8200,
 		"karmatype": "Doom"
 	},
 	{
 		"abr": "eclipse",
-		"price": 450,
+		"price": 1500,
 		"karmatype": "Bad"
 	},
 	{
@@ -102,7 +102,7 @@
 	},
 	{
 		"abr": "blight",
-		"price": 700,
+		"price": 4500,
 		"karmatype": "Bad"
 	},
 	{
@@ -117,12 +117,12 @@
 	},
 	{
 		"abr": "transportpodcrash",
-		"price": 600,
+		"price": 1600,
 		"karmatype": "Good"
 	},
 	{
 		"abr": "tradercaravan",
-		"price": 275,
+		"price": 750,
 		"karmatype": "Good"
 	},
 	{
@@ -137,7 +137,7 @@
 	},
 	{
 		"abr": "maninblack",
-		"price": 350,
+		"price": 3500,
 		"karmatype": "Good"
 	},
 	{
@@ -147,12 +147,12 @@
 	},
 	{
 		"abr": "psychicdrone",
-		"price": 400,
+		"price": 1200,
 		"karmatype": "Bad"
 	},
 	{
 		"abr": "psychicsoothe",
-		"price": 250,
+		"price": 750,
 		"karmatype": "Good"
 	},
 	{
@@ -172,7 +172,7 @@
 	},
 	{
 		"abr": "wildman",
-		"price": 300,
+		"price": 1200,
 		"karmatype": "Good"
 	},
 	{
@@ -187,7 +187,7 @@
 	},
 	{
 		"abr": "travelergroup",
-		"price": 250,
+		"price": 650,
 		"karmatype": "Good"
 	},
 	{
@@ -212,17 +212,17 @@
 	},
 	{
 		"abr": "shippartpoison",
-		"price": 1900,
+		"price": 3900,
 		"karmatype": "Bad"
 	},
 	{
 		"abr": "shippartpsychic",
-		"price": 2400,
+		"price": 3400,
 		"karmatype": "Bad"
 	},
 	{
 		"abr": "militaryaid",
-		"price": 700,
+		"price": 2000,
 		"karmatype": "Good"
 	},
 	{
@@ -252,7 +252,7 @@
 	},
 	{
 		"abr": "infestation",
-		"price": 2500,
+		"price": 4500,
 		"karmatype": "Bad"
 	},
 	{
@@ -267,17 +267,17 @@
 	},
 	{
 		"abr": "randomdisease",
-		"price": 1000,
+		"price": 5000,
 		"karmatype": "Bad"
 	},
 	{
 		"abr": "disease",
-		"price": 1000,
+		"price": 5000,
 		"karmatype": "Bad"
 	},
 	{
 		"abr": "reviveanypawn",
-		"price": 1200,
+		"price": 6000,
 		"karmatype": "Good"
 	},
 	{
@@ -322,27 +322,27 @@
 	},
 	{
 		"abr": "torytalkervote",
-		"price": 750,
+		"price": 2500,
 		"karmatype": "Neutral"
 	},
 	{
 		"abr": "hodlbotvote",
-		"price": 600,
+		"price": 6000,
 		"karmatype": "Neutral"
 	},
 	{
 		"abr": "reviveall",
-		"price": 10000,
+		"price": 20000,
 		"karmatype": "Good"
 	},
 	{
 		"abr": "reviveme",
-		"price": 3000,
+		"price": 5000,
 		"karmatype": "Good"
 	},
 	{
 		"abr": "healall",
-		"price": 5000,
+		"price": 15000,
 		"karmatype": "Good"
 	},
 	{
@@ -352,12 +352,12 @@
 	},
 	{
 		"abr": "healme",
-		"price": 1500,
+		"price": 2500,
 		"karmatype": "Good"
 	},
 	{
 		"abr": "surgery",
-		"price": 500,
+		"price": 1,
 		"karmatype": "Neutral"
 	},
 	{
